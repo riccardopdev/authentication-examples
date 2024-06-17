@@ -26,11 +26,11 @@ This app is based on a video tutorial from the YouTube channel Web Dev Simplifie
 ## Intro <a name="intro"></a>
 
 The purpose of this app is to test basic authentication and authorization between a client HTML page and a NodeJS server.  
-The authentication and authorization are implemented without a password, based only on the type of user (admin, user, unknown).
+The authentication and authorization are implemented without a password, based only on the type of user (adminUser, standardUser, unknownUser).
 
-- admin: Can be authenticated and has access to admin data.
-- user: Can be authenticated but is not authorized to access admin data.
-- unknown: Cannot be authenticated.
+- adminUser: Can be authenticated and has access to admin data.
+- standardUser: Can be authenticated but is not authorized to access admin data.
+- unknownUser: Cannot be authenticated.
 
 The app includes:
 
