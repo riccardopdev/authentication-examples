@@ -1,0 +1,14 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "The code for the client to implement basic authentication",
+  "main": "index.js",
+  "scripts": {
+    "client": "http-server -a localhost -p 3010 -o -c-1"
+  },
+  "author": "Riccardo",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

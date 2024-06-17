@@ -1,0 +1,16 @@
+{
+  "name": "basic-node-authentication",
+  "version": "1.0.0",
+  "description": "Simple nodejs authentication",
+  "main": "index.js",
+  "scripts": {
+    "app": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "cd client && npm run client",
+    "server": "cd server && npm run server"
+  },
+  "author": "Riccardo",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
