@@ -77,7 +77,8 @@ The app uses the following dependencies:
 
 `concurrently`: To run multiple commands concurrently.
 
-**client**
+**client**  
+`react`: To create the UI element for the client.
 
 **server**  
 `express`: To define the endpoints for the requests.  
