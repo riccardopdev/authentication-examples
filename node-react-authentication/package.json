@@ -1,0 +1,16 @@
+{
+  "name": "node-react-authentication",
+  "version": "1.0.0",
+  "description": "A Node server and React client to implement authentication",
+  "main": "index.js",
+  "scripts": {
+    "app": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run server"
+  },
+  "author": "Riccardo",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
