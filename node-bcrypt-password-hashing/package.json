@@ -1,0 +1,14 @@
+{
+  "name": "bcrypt-password-hashing",
+  "version": "1.0.0",
+  "description": "A Node app using bcrypt to hash user's password",
+  "main": "index.js",
+  "scripts": {
+    "app": "node index.js"
+  },
+  "author": "Riccardo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1"
+  }
+}
