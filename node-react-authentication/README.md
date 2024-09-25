@@ -96,14 +96,12 @@ This app is intended for local testing only and not for deployment.
 This project uses React, JavaScript and NodeJS as its core technologies.
 
 **client**  
-The client is a React app featuring a page with a form to submit requests to the server's endpoints.  
-It uses JavaScript's `fetch` API to send requests and passes the user's credentials stored in a cookie as a sessionId to submit `POST` and `GET` requests to the server.
+WIP: to be developed using React.  
+This will be a React page which allows registration of new users and login of existing users.
 
 **server**  
-The server is a NodeJS and express app that implements two endpoints:
-
-- /login: Accepts `POST` requests to submit authentication.
-- /adminData: Accepts `GET` requests to retrieve data for an authenticated admin user.
+WIP: to be developed using NodeJS and Express.
+The server will be a NodeJS and Express app that implements different endpoints that allow users to register and login.
 
 ### Git management <a name="git-management"></a>
 
